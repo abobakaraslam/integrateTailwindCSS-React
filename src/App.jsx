@@ -1,18 +1,12 @@
-// File: App.tsx located in src folder
-import "./App.css"; //importing stylesheet
+/* File: App.jsx */
 function App() {
   return (
     <div>
-      <h1 className="pageHeader">Your Name</h1>
-      <p style={{ margin: "100px 0px" }}>Introduction about yourself</p>
-      <p
-        style={{
-          backgroundColor: "black",
-          padding: "20px",
-          color: "white",
-        }}
-      >
-        Footer Signature
+      <h1 className="text-red-700 m-10 text-3xl text-center">
+        React with Tailwind Integration
+      </h1>
+      <p className="text-center">
+        This is React application in which tailwind CSS is already integrated
       </p>
     </div>
   );
